@@ -71,21 +71,15 @@ export default {
     }
   },
   methods: {
-    sendMessage (message) {
-      if (text.length > 0) {
-        this.newMessagesCount = this.isChatOpen ? this.newMessagesCount : this.newMessagesCount + 1
-        this.onMessageWasSent(message)
-      }
-    },
     onMessageWasSent (message) {
-      this.messageList = [ ...this.messageList, message ]
+      this.messageList = [ ...this.messageList, message ];
     },
     openChat () {
-      this.isChatOpen = true
-      this.newMessagesCount = 0
+      this.isChatOpen = true;
+      this.newMessagesCount = 0;
     },
     closeChat () {
-      this.isChatOpen = false
+      this.isChatOpen = false;
     }
   }
 }
