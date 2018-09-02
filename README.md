@@ -174,7 +174,7 @@ Message objects are rendered differently depending on their type. Currently, onl
 
 ```javascript
 
-let redColors = {
+redColors: {
   header: {
     bg: '#D32F2F',
     text: '#fff'
