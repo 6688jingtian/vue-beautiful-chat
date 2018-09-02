@@ -36,8 +36,8 @@ $ yarn add vue-beautiful-chat
 
 ## Example
 ```javascript
-import Chat from 'vue-beautiful-chat'
-Vue.use(Chat)
+import Chat from 'vue-beautiful-chat';
+Vue.use(Chat);
 ```
 
 ```html
